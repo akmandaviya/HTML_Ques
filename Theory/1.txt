@@ -1,0 +1,55 @@
+-->>New features of HTML5?
+ 1) Addition of <audio> and <video> tags.
+ 2) Vector Graphics==>used to draw graphics with various shapes and colors via scripting
+ 3) <header> and <footer>
+ 4) <figure>==> to markup a photo in document and <figcaption> ==> to add caption for the figure elements.
+ 5) <nav>==> to define set of navigation links
+ 6) <progress> ==> to check the progress of a task during the execution, can be used with the conjuction of Js.
+ 7) Placeholder attribute ==> specifies the short hint, of the expected value of an input/text area.
+ 8) Email attribute ==> When the input type in the form set as email, then the browser gets the instruction from the code to write a valid format email. 
+                        The input email id is automatically validated to check the format of the email id is correct or not.
+ 9)Storage==>  In the case of HTML, we can use the browser as the temporary storage whereas, 
+               in the case of HTML5, application cache, web SQL database, and web storage is used.               
+10) Ease of updates==>  While HTML5 does have risks like constant updates, it is generally easy to keep up with the changes & 
+                        updates because of simpler syntax as compared to other versions of HTML.         
+
+
+
+
+-->>Differnece between inline and block elements
+                          block                                      inline
+~always start from new line                               ~Does not start from new line.
+~takes up the full width available                        ~takes only the necessary width.
+~ <p>, <div>, <li> , <ol>, <h1>--<h6>                     ~<span>, <a>, <img>, <script>, <b>, <i>, <big>, <small> etc
+   <ul>, <nav>, <section>, <video> etc
+
+
+-->What is markup lauguage and what is HTML ?
+A computer language that consists of easily understood keywords, names, or tags that help format the overall view of a page and the data it contains.
+Ex: HTML, XML.
+Hyper text markup language, is a standard markup language for creating web pages, it describes the structure of the web page.
+It tells the browser how to display the content. Ex: <p>, <img>, <h1> to <h6>, <header>, <footer> etc.
+
+
+-->What is meta data or <meta> ?
+The <meta> tag defines metadata about an HTML document. Metadata is data (information) about data.
+<meta> tags always go inside the <head> element and are used to specify page description, keywords, author of the document, and viewport settings.
+Metadata will not be displayed on the page, but is machine parsable.
+There is a method to let web designers take control over the viewport, through the <meta> tag.
+
+
+--->>What are Semantic Tags in HTML ?
+Semantic elements/tags clearly describes its meaning to both browser and developer
+Semantic Ex: <form>, <table>,<article>,<nav>,<section>,<summary> etc.
+Non-Semantic Ex: <div>, <span>.
+
+-->>Explain theses tersm of the browser
+~> innerWidth :- innerHeight property of the Window interface returns the interior height of the window in pixels, 
+                 including the height of the horizontal scroll bar, if present.
+                 The value of innerHeight is taken from the height of the window's layout viewport
+~> innerWidth :- innerWidth returns the interior width of the window in pixels. This includes the width of the vertical scroll bar, if present.
+                 innerWidth returns the width of the window's layout viewport.
+~> outerWidth :-  property returns the width of the outside of the browser window. 
+                  It represents the width of the whole browser window including sidebar (if expanded).
+~> outerHeight :- The window outerHeight property is used for returning the outer height of the browser window. 
+                  It includes all the interface elements such as toolbars, scrollbars, etc. 
